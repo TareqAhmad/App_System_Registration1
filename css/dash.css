@@ -1,0 +1,57 @@
+*{
+    margin:0; 
+    padding:0; 
+    list-style:none; 
+    text-decoration:none; 
+    border:none; 
+    outline:none; 
+    text-transform: capitalize;
+    transition:  all .3s linear;
+    box-sizing:border-box;
+}
+
+a{
+    text-decoration:none;
+}
+.container {
+    margin:0;
+}
+.container .aside ,
+.container .main {
+    min-height: 100vh;
+}
+.container .main {
+    width: 100vw;
+}
+
+.window {
+   top:-100%;
+   left:25%; 
+   transform: translateY(-50%);
+}
+.window.active {
+   top:50%;
+}
+
+.window  i{
+   font-size:25px;
+   cursor: pointer;
+}
+.window select {
+    width:45%;
+}
+.assign::before {
+    content: "";
+    position: absolute;
+    top:28%;left:48%;
+    transform:translateX(-50%); 
+    height:48% ;width:1px;
+    background: #00f;
+}
+.assign button {
+    margin: 2px auto;
+}
+
+.oky button {
+    width:72px;
+}

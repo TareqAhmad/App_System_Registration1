@@ -1,0 +1,9 @@
+*{
+    margin:0;
+    padding:0; 
+}
+
+aside {
+    width:22%;
+    min-height:100vh;
+}
